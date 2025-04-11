@@ -1,12 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import CamperHeader from '@/components/CamperHeader';
+import BookingWizard from '@/components/BookingWizard';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background bg-hero-pattern">
+      <CamperHeader />
+      
+      <main className="camper-container py-8">
+        <BookingWizard />
+      </main>
+      
+      <footer className="bg-camper-green/10 py-8 mt-12">
+        <div className="camper-container">
+          <div className="text-center">
+            <h3 className="text-xl font-semibold text-camper-green mb-2">Adventure Camper Rentals</h3>
+            <p className="text-muted-foreground">Experience the freedom of the open road</p>
+            <p className="text-sm mt-4">© {new Date().getFullYear()} Adventure Camper Rentals. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
