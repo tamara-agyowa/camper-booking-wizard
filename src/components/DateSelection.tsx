@@ -37,6 +37,16 @@ const DateSelection = ({ onDateChange }: DateSelectionProps) => {
     onDateChange(from, to, days);
   }, [date, onDateChange]);
 
+  // Handle date selection properly for the date-range component
+  const handleDateSelect = (selectedDate: any) => {
+    if (selectedDate) {
+      setDate({
+        from: selectedDate.from,
+        to: selectedDate.to
+      });
+    }
+  };
+
   return (
     <div className="booking-step">
       <h2 className="text-2xl font-semibold mb-4">Choose Your Adventure Dates</h2>
@@ -48,13 +58,10 @@ const DateSelection = ({ onDateChange }: DateSelectionProps) => {
             <Calendar
               mode="range"
               selected={date}
-              onSelect={(newDate) => {
-                if (newDate) {
-                  setDate(newDate);
-                }
-              }}
+              onSelect={handleDateSelect}
               disabled={disabledDays}
               initialFocus
+              className="pointer-events-auto"
             />
           </div>
         </div>
