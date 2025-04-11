@@ -109,7 +109,7 @@
   }
 
   .booking-step {
-    @apply opacity-0 animate-fade-in animate-fill-forwards;
+    @apply opacity-0 animate-fade-in;
     animation-fill-mode: forwards;
   }
 }
