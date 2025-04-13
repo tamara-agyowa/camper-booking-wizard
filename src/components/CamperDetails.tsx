@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Users, Fuel, MapPin, PlugZap, Coffee, UserPlus } from 'lucide-react';
+import { Users, Fuel, MapPin, PlugZap, Coffee, UserPlus, Mountain. Calender, Route, Infinity } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const CamperDetails = () => {
@@ -42,38 +42,38 @@ const CamperDetails = () => {
         </div>
         
         <div>
-          <h2 className="text-2xl font-bold mb-3">Premium Adventure Camper</h2>
+          <h2 className="text-2xl font-bold mb-3">Plan Your Adventure – Affordable Rates for Every Explorer</h2>
           <p className="text-muted-foreground mb-4">
-            Experience the freedom of the open road with our fully-equipped camper van. Perfect for couples or small families looking to explore nature in comfort and style.
+            Whether you’re planning a short getaway or a long European road trip, Roaming Roots Camper offers flexible and affordable rates to fit your travel needs. We believe that everyone deserves the freedom to explore, so we’ve kept our pricing simple and transparent—no hidden fees, just pure adventure.
           </p>
           
-          <h3 className="text-lg font-semibold mb-2">Camper Specifications</h3>
+          <h3 className="text-lg font-semibold mb-2">Rates:</h3>
           <div className="grid grid-cols-2 gap-4 mb-6">
             <Card className="bg-muted/50">
               <CardContent className="p-4 flex items-center">
-                <Users className="h-5 w-5 mr-2 text-camper-green" />
-                <span>Sleeps 2-4 people</span>
+                <Calender className="h-5 w-5 mr-2 text-camper-green" />
+                <span>Daily Rate: €[xx]</span>
               </CardContent>
             </Card>
             
             <Card className="bg-muted/50">
               <CardContent className="p-4 flex items-center">
-                <Fuel className="h-5 w-5 mr-2 text-camper-green" />
-                <span>Fuel efficient diesel</span>
+                <Route className="h-5 w-5 mr-2 text-camper-green" />
+                <span>14+ Days: 10% off</span>
               </CardContent>
             </Card>
             
             <Card className="bg-muted/50">
               <CardContent className="p-4 flex items-center">
-                <MapPin className="h-5 w-5 mr-2 text-camper-green" />
-                <span>GPS Navigation</span>
+                <Infinity className="h-5 w-5 mr-2 text-camper-green" />
+                <span>30+ Days: 20% off</span>
               </CardContent>
             </Card>
             
             <Card className="bg-muted/50">
               <CardContent className="p-4 flex items-center">
                 <PlugZap className="h-5 w-5 mr-2 text-camper-green" />
-                <span>Solar Power</span>
+                <span>Additional?</span>
               </CardContent>
             </Card>
           </div>
@@ -81,19 +81,19 @@ const CamperDetails = () => {
           <h3 className="text-lg font-semibold mb-2">Included Amenities</h3>
           <ul className="space-y-2 mb-6">
             <li className="flex items-center">
-              <Coffee className="h-4 w-4 mr-2 text-camper-sand" />
+              <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
               <span>Fully equipped kitchen with stove and fridge</span>
             </li>
             <li className="flex items-center">
-              <Coffee className="h-4 w-4 mr-2 text-camper-sand" />
+              <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
               <span>Comfortable memory foam mattress</span>
             </li>
             <li className="flex items-center">
-              <Coffee className="h-4 w-4 mr-2 text-camper-sand" />
+              <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
               <span>Outdoor camping chairs and table</span>
             </li>
             <li className="flex items-center">
-              <Coffee className="h-4 w-4 mr-2 text-camper-sand" />
+              <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
               <span>Shower and toilet facilities</span>
             </li>
           </ul>
