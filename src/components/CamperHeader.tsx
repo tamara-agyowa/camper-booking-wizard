@@ -8,8 +8,8 @@ const CamperHeader = () => {
       <div className="camper-container">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold mb-2">Book Your Journey with Roaming Roots Camperh1>
-            <p className="text-camper-light-sand opacity-80">Time freedom, open roads & memories in the making—your story starts here.van</p>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">Book Your Journey with Roaming Roots Camper</h1>
+            <p className="text-camper-light-sand opacity-80">Time freedom, open roads & memories in the making—your story starts here.</p>
           </div>
           <div className="mt-4 md:mt-0">
             <span className="inline-flex items-center bg-camper-light-green/20 px-3 py-1 rounded-full text-sm">
