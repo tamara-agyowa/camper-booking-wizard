@@ -8,7 +8,7 @@ const CamperHeader = () => {
       <div className="camper-container">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold mb-2">Adventure Camper Booking</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">Roaming Roots Camper Booking</h1>
             <p className="text-camper-light-sand opacity-80">Book your next outdoor adventure with our premium camper van</p>
           </div>
           <div className="mt-4 md:mt-0">
