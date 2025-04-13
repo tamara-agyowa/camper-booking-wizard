@@ -15,7 +15,7 @@ const Index = () => {
       <footer className="bg-camper-green/10 py-8 mt-12">
         <div className="camper-container">
           <div className="text-center">
-            <h3 className="text-xl font-semibold text-camper-green mb-2">Adventure Camper Rentals</h3>
+            <h3 className="text-xl font-semibold text-camper-green mb-2">Roaming Roots Camper Booking</h3>
             <p className="text-muted-foreground">Experience the freedom of the open road</p>
             <p className="text-sm mt-4">© {new Date().getFullYear()} Adventure Camper Rentals. All rights reserved.</p>
           </div>
