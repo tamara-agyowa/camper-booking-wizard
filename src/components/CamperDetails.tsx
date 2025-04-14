@@ -51,7 +51,7 @@ const CamperDetails = () => {
           <div className="grid grid-cols-2 gap-4 mb-6">
             <Card className="bg-muted/50">
               <CardContent className="p-4 flex items-center">
-                <Calender className="h-5 w-5 mr-2 text-camper-green" />
+                <Calendar className="h-5 w-5 mr-2 text-camper-green" />
                 <span>Daily Rate: €[xx]</span>
               </CardContent>
             </Card>
