@@ -48,7 +48,7 @@ const CamperDetails = () => {
           </p>
           
           <h3 className="text-lg font-semibold mb-2">Rates:</h3>
-          <div className="grid grid-cols-2 gap-4 mb-6">
+          <div className="grid grid-cols-1 gap-4 mb-6">
             <Card className="bg-muted/50">
               <CardContent className="p-4 flex items-center">
                 <Calendar className="h-5 w-5 mr-2 text-camper-green" />
@@ -67,13 +67,6 @@ const CamperDetails = () => {
               <CardContent className="p-4 flex items-center">
                 <Infinity className="h-5 w-5 mr-2 text-camper-green" />
                 <span>30+ Days: 20% off</span>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-muted/50">
-              <CardContent className="p-4 flex items-center">
-                <PlugZap className="h-5 w-5 mr-2 text-camper-green" />
-                <span>Additional?</span>
               </CardContent>
             </Card>
           </div>
