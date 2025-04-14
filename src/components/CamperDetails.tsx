@@ -71,19 +71,21 @@ const CamperDetails = () => {
             </Card>
           </div>
           
-          <h3 className="text-lg font-semibold mb-2">Included Amenities</h3>
+          <h3 className="text-lg font-semibold mb-2">What is Included</h3>
+          <p className="text-muted-foreground mb-4">Every booking includes:
+          </p>
           <ul className="space-y-2 mb-6">
             <li className="flex items-center">
               <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
-              <span>Fully equipped kitchen with stove and fridge</span>
+              <span>2 solar panels with 1000W inverter (perfect for remote work!)</span>
             </li>
             <li className="flex items-center">
               <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
-              <span>Comfortable memory foam mattress</span>
+              <span>Fully equipped kitchenware</span>
             </li>
             <li className="flex items-center">
               <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
-              <span>Outdoor camping chairs and table</span>
+              <span>Full tank of fuel at pickup</span>
             </li>
             <li className="flex items-center">
               <Mountain className="h-4 w-4 mr-2 text-camper-sand" />
@@ -95,8 +97,9 @@ const CamperDetails = () => {
             <UserPlus className="h-5 w-5 mr-3 text-camper-green mt-0.5" />
             <div>
               <p className="font-semibold text-camper-green">Optional extras</p>
+              <p className="text-muted-foreground mb-4">Want a little something more? We offer optional add-ons like:</p>
               <p className="text-sm text-muted-foreground">
-                Add bike rack, bedding packages, or outdoor cooking equipment for additional fees.
+                Add bike rack, bedding packages, camping chairs & table, BBQ set or child seats for additional fees.
               </p>
             </div>
           </div>
