@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Users, Fuel, MapPin, PlugZap, Coffee, UserPlus, Mountain. Calender, Route, Infinity } from 'lucide-react';
+import { Users, Fuel, MapPin, PlugZap, Coffee, UserPlus, Mountain, Calender, Route, Infinity } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const CamperDetails = () => {
