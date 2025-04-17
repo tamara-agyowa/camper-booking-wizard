@@ -16,25 +16,18 @@ const CamperDetails = () => {
             />
           </div>
           
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 gap-2">
             <div className="aspect-square overflow-hidden rounded-md bg-camper-light-sand/20">
               <img 
-                src="https://images.unsplash.com/photo-1545161296-d9c2c241f2ad?q=80&w=2670&auto=format&fit=crop" 
-                alt="Camper interior" 
+                src="/images/Bridge-into-Portugal-Roadtrip-Roaming-Roots.jpg" 
+                alt="View of a mountain bridge in Spain, taken while driving the Roaming Roots Camper 20 minutes before crossing into Portugal." 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-square overflow-hidden rounded-md bg-camper-light-sand/20">
               <img 
-                src="https://images.unsplash.com/photo-1520804454707-893212e46c41?q=80&w=2670&auto=format&fit=crop" 
-                alt="Camper kitchen" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="aspect-square overflow-hidden rounded-md bg-camper-light-sand/20">
-              <img 
-                src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=2532&auto=format&fit=crop" 
-                alt="Camper view" 
+                src="Coastal-Valley-Town-Northern-Spain-Roadtrip.jpg" 
+                alt="View from the Roaming Roots Camper of a coastal village surrounded by green fields, mountains, and sea in northern Spain under dramatic cloudy skies." 
                 className="w-full h-full object-cover"
               />
             </div>
