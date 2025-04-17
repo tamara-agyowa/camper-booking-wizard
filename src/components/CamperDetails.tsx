@@ -26,7 +26,7 @@ const CamperDetails = () => {
             </div>
             <div className="aspect-square overflow-hidden rounded-md bg-camper-light-sand/20">
               <img 
-                src="Coastal-Valley-Town-Northern-Spain-Roadtrip.jpg" 
+                src="/images/Coastal-Valley-Town-Northern-Spain-Roadtrip.jpg" 
                 alt="View from the Roaming Roots Camper of a coastal village surrounded by green fields, mountains, and sea in northern Spain under dramatic cloudy skies." 
                 className="w-full h-full object-cover"
               />
