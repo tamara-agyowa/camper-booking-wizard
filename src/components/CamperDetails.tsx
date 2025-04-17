@@ -10,8 +10,8 @@ const CamperDetails = () => {
         <div>
           <div className="aspect-video overflow-hidden rounded-lg mb-4 bg-camper-light-sand/20">
             <img 
-              src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=2676&auto=format&fit=crop" 
-              alt="Adventure Camper Van" 
+              src="/images/Freedom-Camper-European-Adventure.jpg" 
+              alt="Roaming Roots Camper parked in nature during a European road trip" 
               className="w-full h-full object-cover"
             />
           </div>
